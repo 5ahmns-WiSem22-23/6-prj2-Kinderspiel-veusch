@@ -32,11 +32,15 @@ Das Fischerboot muss ins Ziel gefahren werden, sobald es einen Fisch gefangen ha
 Beim Build werden manche Grafiken nicht implementiert -> dadurch lässt sich auch der Würfel nicht würfeln.
  
 ## Video
-
+Das Boot fängt die Fische und beim erneutigen ziehen der Farbe eines gefangenen Fisches, zieht in diesem Fall das Boot weiter.
 https://user-images.githubusercontent.com/72389865/216032814-0900a1fa-25b6-4507-ab6d-dffd53d1a2a9.mp4
 
 
  
  
+Wenn ein Fisch frei ist und seine Farbe aber noch einmal gewürfelt wird, öffnet sich eine Auswahl die dich zwischen den Fischen, welche noch im Spiel sind wählen lässt.
+https://user-images.githubusercontent.com/72389865/216035627-97e6dcfe-8a16-43e5-8fe3-a91034ad41fb.mp4
+
+
 
 
