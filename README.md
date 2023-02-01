@@ -25,4 +25,8 @@ Hintergrundmusik
 ![Anleitung1](https://user-images.githubusercontent.com/72389865/215975260-a03e0dee-a4e6-49bb-bdf2-15381d565fce.jpg)
 ![Anleitung2](https://user-images.githubusercontent.com/72389865/215975305-9b16b9dd-0e02-408a-a6c5-77c8df6586bd.jpg)
 
+## Limitierungen
+
+Beim Build werden manche Grafiken nicht implementiert -> dadurch lässt sich auch der Würfel nicht würfeln.
+
 Das Fischerboot muss ins Ziel gefahren werden, sobald es einen Fisch gefangen hat. Wenn es unentschieden steht also 2 Gefangene Fische und 2 gerettete Fische, gewinnen die Fische.
