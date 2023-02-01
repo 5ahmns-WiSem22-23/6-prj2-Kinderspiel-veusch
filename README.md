@@ -43,8 +43,14 @@ https://user-images.githubusercontent.com/72389865/216035627-97e6dcfe-8a16-43e5-
 
 ## Screens
  
-
+StartScreen
 ![Screenshot (132)](https://user-images.githubusercontent.com/72389865/216061872-ff12cbbb-89ce-44cc-9730-1efceecdc761.png)
-![Uploading Screenshot (133).png…]()
-![Uploading Screenshot (134).png…]()
-![Uploading Screenshot (135).png…]()
+ 
+ 
+![Screenshot (133)](https://user-images.githubusercontent.com/72389865/216062315-c47a0569-e98d-4222-a31e-bcb2f68c793b.png)
+ 
+ Scoreboard + Auswahl für den nächsten Zug
+![Screenshot (134)](https://user-images.githubusercontent.com/72389865/216062509-68eba9b5-76a5-46c6-a4d2-cb683a5ef61d.png)
+
+ Einer der zwei EndScreens
+![Screenshot (135)](https://user-images.githubusercontent.com/72389865/216062868-dc05d94f-8490-4f4c-86b9-aac19d6179bf.png)
