@@ -7,7 +7,7 @@ Windows 11
 
 Visual Studio 2019
 
-## Optionale Features
+## Optionale Funktionen
 <li> Verschiedene Screens
 
 <li> Besonderer Würfel
@@ -30,5 +30,13 @@ Das Fischerboot muss ins Ziel gefahren werden, sobald es einen Fisch gefangen ha
 ## Limitierungen
 
 Beim Build werden manche Grafiken nicht implementiert -> dadurch lässt sich auch der Würfel nicht würfeln.
+ 
+## Video
+
+https://user-images.githubusercontent.com/72389865/216032814-0900a1fa-25b6-4507-ab6d-dffd53d1a2a9.mp4
+
+
+ 
+ 
 
 
