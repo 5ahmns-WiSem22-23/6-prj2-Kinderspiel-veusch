@@ -41,6 +41,10 @@ https://user-images.githubusercontent.com/72389865/216032814-0900a1fa-25b6-4507-
 Wenn ein Fisch frei ist und seine Farbe aber noch einmal gewürfelt wird, öffnet sich eine Auswahl die dich zwischen den Fischen, welche noch im Spiel sind wählen lässt.
 https://user-images.githubusercontent.com/72389865/216035627-97e6dcfe-8a16-43e5-8fe3-a91034ad41fb.mp4
 
+## Screens
+ 
 
-
-
+![Screenshot (132)](https://user-images.githubusercontent.com/72389865/216061872-ff12cbbb-89ce-44cc-9730-1efceecdc761.png)
+![Uploading Screenshot (133).png…]()
+![Uploading Screenshot (134).png…]()
+![Uploading Screenshot (135).png…]()
