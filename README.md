@@ -10,15 +10,15 @@ Visual Studio 2019
 ## Optionale Features
 <li> Verschiedene Screens
 
-Besonderer Würfel
+<li> Besonderer Würfel
 
-Scoreboard um Fortschritt anzuzeigen
+<li> Scoreboard um Fortschritt anzuzeigen
 
-Wenn eine Farbe gewürfelt wird von einem Fisch der schon im Ziel ist, kann der Spieler eine Farbe auf einem seperatem Auswahlobjekt der übrigen Fische auswählen, die ziehen darf.
+<li> Wenn eine Farbe gewürfelt wird von einem Fisch der schon im Ziel ist, kann der Spieler eine Farbe auf einem seperatem Auswahlobjekt der übrigen Fische auswählen, die ziehen darf.
 
-Es gibt dieMöglichkeit das Spiel komplett zu verlassen
-
-Hintergrundmusik
+<li> Es gibt dieMöglichkeit das Spiel komplett zu verlassen ( im Build)
+ 
+<li> Hintergrundmusik
 
 ## Anleitung
 ![Anleitung1](https://user-images.githubusercontent.com/72389865/215975185-5c17a078-fac8-471e-a716-8a75ee8ced73.jpg)
