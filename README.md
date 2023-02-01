@@ -16,6 +16,8 @@ Scoreboard um Fortschritt anzuzeigen
 
 Wenn eine Farbe gewürfelt wird von einem Fisch der schon im Ziel ist, kann der Spieler eine Farbe auf einem seperatem Auswahlobjekt der übrigen Fische auswählen, die ziehen darf.
 
+Es gibt dieMöglichkeit das Spiel komplett zu verlassen
+
 ## anleitung
 ![Anleitung1](https://user-images.githubusercontent.com/72389865/215975185-5c17a078-fac8-471e-a716-8a75ee8ced73.jpg)
 ![Anleitung1](https://user-images.githubusercontent.com/72389865/215975260-a03e0dee-a4e6-49bb-bdf2-15381d565fce.jpg)
