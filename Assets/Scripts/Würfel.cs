@@ -80,7 +80,7 @@ public class Würfel : MonoBehaviour
         {
             Debug.Log("Seite 1, blau");
             fischBlau.transform.position += new Vector3(-80f, 0, 0);
-            if (GameState.instance.fischBlauD == 1)
+            if (GameState.instance.fischBlauD == 1 &&GameState.instance.fischeImGame < 4)
             {
                 fischerBoot.transform.position += new Vector3(-80f, 0, 0);
             }
