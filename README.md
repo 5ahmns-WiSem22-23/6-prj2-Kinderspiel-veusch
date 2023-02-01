@@ -2,13 +2,18 @@
  
 ## Entwicklungsplattform
 Unity 2020.3.18f
+
 Windows 11
+
 Visual Studio 2019
 
 ## Optionale Features
 Verschiedene Screens
+
 Besonderer Würfel
+
 Scoreboard um Fortschritt anzuzeigen
+
 Wenn eine Farbe gewürfelt wird von einem Fisch der schon im Ziel ist, kann der Spieler eine Farbe auf einem seperatem Auswahlobjekt der übrigen Fische auswählen, die ziehen darf.
 
 ## anleitung
