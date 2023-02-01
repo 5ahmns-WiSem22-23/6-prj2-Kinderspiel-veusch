@@ -86,11 +86,12 @@ public class Würfel : MonoBehaviour
             }
 
 
-          if(GameState.instance.fischBSafed==true && GameState.instance.fischeImGame > 4)
+          if(GameState.instance.fischBSafed==true && GameState.instance.fischeImGame < 4)
             {
                 anzeige.SetActive(true);
                 wuerfel.SetActive(false);
-                
+                Debug.Log("Seite 1, blau und schon gerettet");
+
             }
 
 
@@ -114,7 +115,7 @@ public class Würfel : MonoBehaviour
                 fischerBoot.transform.position += new Vector3(-80f, 0, 0);
             }
 
-            if (GameState.instance.fischRSafed == true && GameState.instance.fischeImGame > 4)
+            if (GameState.instance.fischRSafed == true && GameState.instance.fischeImGame < 4)
             {
                 anzeige.SetActive(true);
                 wuerfel.SetActive(false);
@@ -132,7 +133,7 @@ public class Würfel : MonoBehaviour
                 fischerBoot.transform.position += new Vector3(-80f, 0, 0);
             }
 
-            if (GameState.instance.fischRosaSafed == true && GameState.instance.fischeImGame>4)
+            if (GameState.instance.fischRosaSafed == true && GameState.instance.fischeImGame<4)
             {
                 anzeige.SetActive(true);
                 wuerfel.SetActive(false);
@@ -149,7 +150,7 @@ public class Würfel : MonoBehaviour
             {
                 fischerBoot.transform.position += new Vector3(-80f, 0, 0);
             }
-            if (GameState.instance.fischGSafed == true && GameState.instance.fischeImGame > 4)
+            if (GameState.instance.fischGSafed == true && GameState.instance.fischeImGame < 4)
             {
                 anzeige.SetActive(true);
                 wuerfel.SetActive(false);
