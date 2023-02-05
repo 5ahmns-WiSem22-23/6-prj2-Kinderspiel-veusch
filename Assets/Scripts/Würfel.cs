@@ -70,19 +70,19 @@ public class Würfel : MonoBehaviour
         if(finalSide==2)
         {
             Debug.Log("Seite 2, grün");
-            fischerBoot.transform.position += new Vector3(-80f, 0, 0);
-
-            
-
+            MoveObject(fischerBoot);
+            //fischerBoot.transform.localPosition += new Vector3(-80f, 0, 0);
         }
 
         if (finalSide == 1)
         {
             Debug.Log("Seite 1, blau");
-            fischBlau.transform.position += new Vector3(-80f, 0, 0);
+            MoveObject(fischBlau);
+            //fischBlau.transform.localPosition += new Vector3(-80f, 0, 0);
             if (GameState.instance.fischBlauD == 1 &&GameState.instance.fischeImGame < 4)
             {
-                fischerBoot.transform.position += new Vector3(-80f, 0, 0);
+                //fischerBoot.transform.localPosition += new Vector3(-80f, 0, 0);
+                MoveObject(fischerBoot);
             }
 
 
@@ -93,26 +93,24 @@ public class Würfel : MonoBehaviour
                 Debug.Log("Seite 1, blau und schon gerettet");
 
             }
-
-
-
         }
 
         if (finalSide == 3)
         {
             Debug.Log("Seite 3, orange");
-            fischerBoot.transform.position += new Vector3(-80f, 0, 0);
-
-
+            //fischerBoot.transform.localPosition += new Vector3(-80f, 0, 0);
+            MoveObject(fischerBoot);
         }
 
         if (finalSide == 4)
         {
             Debug.Log("Seite 4, rot");
-            fischRot.transform.position += new Vector3(-80f, 0, 0);
+            //fischRot.transform.localPosition += new Vector3(-80f, 0, 0);
+            MoveObject(fischRot);
             if (GameState.instance.fischRotD == 1)
             {
-                fischerBoot.transform.position += new Vector3(-80f, 0, 0);
+                //fischerBoot.transform.position += new Vector3(-80f, 0, 0);
+                MoveObject(fischerBoot);
             }
 
             if (GameState.instance.fischRSafed == true && GameState.instance.fischeImGame < 4)
@@ -127,10 +125,12 @@ public class Würfel : MonoBehaviour
         if (finalSide == 5)
         {
             Debug.Log("Seite 5, rosa");
-            fischRosa.transform.position += new Vector3(-80f, 0, 0);
+            //fischRosa.transform.position += new Vector3(-80f, 0, 0);
+            MoveObject(fischRosa);
             if (GameState.instance.fischRosaD == 1)
             {
-                fischerBoot.transform.position += new Vector3(-80f, 0, 0);
+                //fischerBoot.transform.position += new Vector3(-80f, 0, 0);
+                MoveObject(fischerBoot);
             }
 
             if (GameState.instance.fischRosaSafed == true && GameState.instance.fischeImGame<4)
@@ -145,10 +145,12 @@ public class Würfel : MonoBehaviour
         if (finalSide == 6)
         {
             Debug.Log("Seite 5, gelb");
-            fischGelb.transform.position += new Vector3(-80f, 0, 0);
+            //fischGelb.transform.localPosition += new Vector3(-80f, 0, 0);
+            MoveObject(fischGelb);
             if (GameState.instance.fischGelbD == 1)
             {
-                fischerBoot.transform.position += new Vector3(-80f, 0, 0);
+                //fischerBoot.transform.localPosition += new Vector3(-80f, 0, 0);
+                MoveObject(fischerBoot);
             }
             if (GameState.instance.fischGSafed == true && GameState.instance.fischeImGame < 4)
             {
@@ -161,6 +163,10 @@ public class Würfel : MonoBehaviour
         }
     }
 
+    public void MoveObject(GameObject obj)
+    {
+        obj.transform.localPosition += new Vector3(-80, 0, 0);
+    }
 
 
 
